@@ -6,7 +6,7 @@ In this workshop, you will use member functions, privacy, safe empty state and f
 
 The overview session will be held on Wed. July 1st at 14:00.
 
-To join the session click here [WS3 Overview]()
+To join the session click here [WS3 Overview](https://connect.rna2.blindsidenetworks.com/invite/to?c=B_oGbS1iyTVmpn-jqgnoteD1x6plEgTCwl40DgEpIUk&m=f182c5fed6c3b14d3a8379e50632e1a4ffbbe5a0&t=1654105590489&u=senecacollege)
 ## Learning Outcomes
 
 Upon successful completion of this workshop, you will have demonstrated the abilities:
