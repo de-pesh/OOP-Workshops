@@ -2,7 +2,11 @@
 * version 1.0
 
 In this workshop, you will use member functions, privacy, safe empty state and formatting of the output to complete your work.
+## The Overview session
 
+The overview session will be held on Wed. July 1st at 14:00.
+
+To join the session click here [WS3 Overview]()
 ## Learning Outcomes
 
 Upon successful completion of this workshop, you will have demonstrated the abilities:
