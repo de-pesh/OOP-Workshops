@@ -4,9 +4,9 @@
 In this workshop, you will use member functions, privacy, safe empty state and formatting of the output to complete your work.
 ## The Overview session
 
-The overview session will be held on Wed. July 1st at 14:00.
+The overview session Was held on Wed. July 1st at 14:00.
 
-To join the session click here [WS3 Overview](https://connect.rna2.blindsidenetworks.com/invite/to?c=B_oGbS1iyTVmpn-jqgnoteD1x6plEgTCwl40DgEpIUk&m=f182c5fed6c3b14d3a8379e50632e1a4ffbbe5a0&t=1654105590489&u=senecacollege)
+To View the session click here [WS3 Overview](https://youtu.be/E7dzJCWwy3U)
 ## Learning Outcomes
 
 Upon successful completion of this workshop, you will have demonstrated the abilities:
@@ -196,8 +196,9 @@ Armies reporting to battle:<ENDL>
 Each Army in the array will be printed in the following format.
 
 ```
-Nationality: XXXXXXXXXXX, Units Count: XXXX, Power left:<ENDL>
+Nationality: XXXXXXXXXXX, Units Count: XXXX, Power left: X.X<ENDL>
 ```
+Power left has one digit after the decimal point.
 
 ## Testing Program
 ```
