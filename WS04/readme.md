@@ -1,5 +1,7 @@
 # Workshop #4: Constructors, Destructors, and the *this* object
 * Version 1.0
+## Overview session
+Click [HERE](https://connect.rna2.blindsidenetworks.com/invite/to?c=H7vR8fhlo6wQtawJhGHOVZrK37Qj3U6qVPnqNCKTyOk&m=f182c5fed6c3b14d3a8379e50632e1a4ffbbe5a0&t=1654789656270&u=senecacollege) to join the overview session at 12:00
 
 ## Learning Outcomes
 
