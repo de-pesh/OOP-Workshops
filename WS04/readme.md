@@ -1,7 +1,9 @@
 # Workshop #4: Constructors, Destructors, and the *this* object
-* Version 1.0
+* Version 1.1<br />
+  report signature corrected<br />
+  Overview recording uploaded
 ## Overview session
-Click [HERE](https://connect.rna2.blindsidenetworks.com/invite/to?c=H7vR8fhlo6wQtawJhGHOVZrK37Qj3U6qVPnqNCKTyOk&m=f182c5fed6c3b14d3a8379e50632e1a4ffbbe5a0&t=1654789656270&u=senecacollege) to join the overview session at 12:00
+Click [HERE](https://youtu.be/Q8gyz9sycZo) to view the overview session recording
 
 ## Learning Outcomes
 
@@ -209,7 +211,7 @@ This method returns whether all member variables have valid values or not based 
 ```C++
 bool isSimilarTo(const Car& car) const;
 ```
-This function is to check whether the type, make, brand and year of an object of `Car` are equal to another object of this class. The function will return `true` only if all those values match. 
+This function is to check whether the type, brand, model and year of an object of `Car` are equal to another object of this class. The function will return `true` only if all those values match. 
 
 --------------------------------------------------------
 ### Global helper functions
@@ -448,8 +450,11 @@ Example:
 ```
 
 #### The Robots Information stand alone report function
+
+~~int report(CleanerBot* bot, const short num_bots);~~<br/>
 ```C++
-int report(CleanerBot* bot, const short num_bots);
+//this will not change the outcome but is the correct signature of the report
+int report(CleanerBot* bot, short num_bots);
 ```
 This function receives an array of robots and prints a report of their information and a warning message that is displayed if there are robots with less than 30% remaining battery. The warning message displays the number of robots with low battery and also displays a sorted list of robots based on their battery power in descending order.
 
