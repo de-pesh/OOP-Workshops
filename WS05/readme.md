@@ -8,7 +8,7 @@ In this workshop, you will implement different types of operator overload in a p
 
 The overview session will be on Monday June 13th at 1:00 PM;
 
-Click [HERE]() to join the session.
+Click [HERE](https://connect.rna2.blindsidenetworks.com/invite/to?c=2p-meZ16exbue8BYkj-W7lZBxiTPeCr6BHKp_ATMuM0&m=f182c5fed6c3b14d3a8379e50632e1a4ffbbe5a0&t=1655139525673&u=senecacollege) to join the session.
 
 ## Learning Outcomes
 
