@@ -188,7 +188,7 @@ namespace sdds {
 
 ### Add the following to the Chapter class:
 - An `int` type cast operator: It will return the number of the pages in the Chapter object.
-- A `double` type cast operator: It will return the number of words per chapter.
+- A `double` type cast operator: It will return the average number of words per page.
 - A `const char*` type cast operator: It will return the title of a chapter object.
 - An assignment operator overload: to allow setting a chapter to another chapter object.  
 (i.e., right-hand operand is of type const Chapter&).
