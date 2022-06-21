@@ -6,9 +6,9 @@ In this workshop, you will implement different types of operator overload in a p
 
 ## Overview Session
 
-The overview session will be on Monday June 13th at 1:00 PM;
+The overview session was on Monday June 13th at 1:00 PM;
 
-Click [HERE]() to join the session.
+Click [HERE](https://youtu.be/RmPakgNRP7o) to watch the session.
 
 ## Learning Outcomes
 
@@ -188,7 +188,7 @@ namespace sdds {
 
 ### Add the following to the Chapter class:
 - An `int` type cast operator: It will return the number of the pages in the Chapter object.
-- A `double` type cast operator: It will return the number of words per chapter.
+- A `double` type cast operator: It will return the average number of words per page.
 - A `const char*` type cast operator: It will return the title of a chapter object.
 - An assignment operator overload: to allow setting a chapter to another chapter object.  
 (i.e., right-hand operand is of type const Chapter&).
