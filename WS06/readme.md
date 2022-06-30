@@ -146,7 +146,7 @@ Now if the number of double values in file is greater than zero it tries to read
 
 ### Default constructor  (implemented)
 ```C++
-  Account();
+ Numbers();
 ```
 - Sets the object to safe empty state (**setEmpty()**).
 - Sets the m_isOriginal flag to false.
