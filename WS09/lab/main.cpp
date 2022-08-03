@@ -13,18 +13,20 @@ using namespace std;
 bool operator==(FullName fn, const char* lastname);
 bool operator>(FullName left, FullName right);
 int readNames(FullName*& names, ifstream& istr);
-void sort(FullName arr[], int n);
+void sort(FullName arr[], int n, int []);
 void cat(const char* fname);
 int main() {
    FullName* simpsons;
    ifstream infile("simpsons.txt");
    ofstream outfile("sorted.txt");
    int cnt = readNames(simpsons, infile);
-   sort(simpsons, cnt);
+   int arr[cnt];
+   for(int i = 0; i<cnt;i++) arr[i] = i;
+   sort(simpsons, cnt, arr);
    cout << "Simpons Family:" << endl;
    for(int i = 0; i < cnt; i++) {
-      if(simpsons[i] == "Simpson") cout << simpsons[i] << endl;
-      outfile << simpsons[i] << endl;
+      if(simpsons[arr[i]] == "Simpson") cout << simpsons[arr[i]] << endl;
+      outfile << simpsons[arr[i]]<<endl;
    }
    cout << endl;
    delete[] simpsons;
@@ -54,7 +56,7 @@ int readNames(FullName*& names, ifstream& istr) {
 bool operator==(FullName fn, const char* lastname) {
    int i;
    bool res = false;
-   if(fn && lastname) {
+  if(fn && lastname) {
       const char* s1 = fn;
       for(i = 0; s1[i] && lastname[i] && s1[i] == lastname[i]; i++);
       res = s1[i] == lastname[i];
@@ -72,14 +74,14 @@ bool operator>(FullName left, FullName right) {
    }
    return res;
 }
-void sort(FullName arr[], int n) {
+void sort(FullName arr[], int n, int ar[]) {
    int i{}, j{};
    for(i = 0; i < n; i++) {
       for(j = 0; j < n - i - 1; j++) {
-         if(arr[j] > arr[j + 1]) {
-            FullName temp = arr[j];
-            arr[j] = arr[j + 1];
-            arr[j + 1] = temp;
+         if(arr[ar[j]] > arr[ar[j + 1]]) {
+           int t = ar[j];
+           ar[j] = ar[j+1];
+           ar[j+1] = t;
          }
       }
    }

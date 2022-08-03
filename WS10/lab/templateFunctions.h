@@ -10,7 +10,10 @@
 #include "Collection.h"
 namespace sdds {
 	//Find with 3 parameters
-	
+	template <class T>
+	void find(T x) {
+		
+	}
 
 	//Find with 4 parameters
 	
